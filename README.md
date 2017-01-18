@@ -3,7 +3,7 @@ It started out with a simple plan: back up the network configuration to disk, so
 It seemed so simple! Microsoft has a tool specifically for this - netsh!
 And for a short while, it was.
 
-Until the meat meet the metal, of course: as of the release of Server 2008, netsh no longer records DNS settings in the interface dump.
+Until the meat met the metal, of course: as of the release of Server 2008, netsh no longer records DNS settings in the interface dump.
 As such, they are not restored when a technician runs the command "netsh exec {netsh dump file}".
 
 --------
